@@ -4,7 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-    /* border: 2px solid red; */
+    border: 2px solid red;
 }
 .res{
     display: block;
@@ -148,12 +148,16 @@ nav{
     padding: 10px;
 }
 .do{
-    padding: 20px 80px;
+    padding: 20px 0px;  
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 .do-img{
     width: 20%;
+}
+.do-img img{
+    margin: 0px 40px;
 }
 #whiteuse{
     background-color: white;
@@ -214,7 +218,6 @@ nav{
     }
     .home-text{
         padding: 15px;
-        padding-left: 40px;
         width: 100%;
     }
     .home-img{
@@ -229,10 +232,18 @@ nav{
     #use .home-text{
         padding: 60px;
     }
-    .do{
-        display: none;
-    }
     .footer{
         padding: 2%;
+    }
+   .footer ul{
+    margin: 1px;
+   }
+   .footer button{
+    width: 100%;
+   }
+}
+@media (max-width:1350px){
+    .do{
+        display: none;
     }
 }
