@@ -8,6 +8,9 @@
 .res{
     display: block;
 }
+.ures{
+    display: none;
+}
 nav{
     background-color: black;
     color: white;
@@ -161,6 +164,7 @@ nav{
 #whiteuse{
     background-color: white;
     color: black;
+    padding: 15px;
 }
 .footer{
     background-color: black;
@@ -203,6 +207,13 @@ nav{
     .res{
         display: none;
     }
+    .ures{
+        display: block;
+    }
+  .ures img{
+    width: 100%;
+  }
+
     nav{
         padding: 15px;
     }
@@ -216,7 +227,7 @@ nav{
         flex-direction: column;
     }
     .home-text{
-        padding: 15px;
+        padding: 0px;
         width: 100%;
     }
     .home-img{
@@ -224,12 +235,10 @@ nav{
     }
     .second{
         flex-direction: column;
+        padding: 50px 10px;
     }
     .second-header, .second-img, .second-text{
         width: 100%;
-    }
-    #use .home-text{
-        padding: 60px;
     }
     .footer{
         padding: 2%;
