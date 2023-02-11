@@ -213,9 +213,8 @@ nav{
   .ures img{
     width: 100%;
   }
-
     nav{
-        padding: 15px;
+        padding: 15px 25px;
     }
     .header_btn ul{
         justify-content: right;
@@ -227,7 +226,7 @@ nav{
         flex-direction: column;
     }
     .home-text{
-        padding: 30x 20px;
+        padding: 20px 30px;
         width: 100%;
     }
     .home-img{
